@@ -11,4 +11,13 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-server
+    compile group: 'org.eclipse.jetty', name: 'jetty-server', version: '9.4.11.v20180605'
+    // https://mvnrepository.com/artifact/org.eclipse.jetty/jetty-webapp
+    compile group: 'org.eclipse.jetty', name: 'jetty-webapp', version: '9.4.11.v20180605'
+    // https://mvnrepository.com/artifact/org.freemarker/freemarker
+    compile group: 'org.freemarker', name: 'freemarker', version: '2.3.28'
+
+
+
 }
