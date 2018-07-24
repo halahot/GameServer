@@ -1,2 +1,5 @@
 rootProject.name = 'TestServer'
+include 'app-core'
+include 'app-client'
+include 'app-mechanics'
 
